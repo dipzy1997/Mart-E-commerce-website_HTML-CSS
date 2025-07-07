@@ -150,6 +150,11 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: var(--transition);
+}
+.sitecard:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .sitecard span{
     width: 50px;
@@ -160,7 +165,22 @@ img{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    transition: var(--transition);
 }
+.sitecard:hover span{
+    animation: cardicon 1.5s linear infinite;
+}
+@keyframes cardicon{
+    0%, 100%{
+        transform: scale(0.8);
+        box-shadow: 0 0 5px rgb(243, 243, 243);
+    }
+    50%{
+        transform: scale(1.05);
+        box-shadow: 0 0 5px rgb(243, 243, 243);
+    }
+}
+
 .sitecard span i{
     font-size: 22px !important;
 }
