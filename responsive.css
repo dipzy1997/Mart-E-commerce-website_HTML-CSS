@@ -311,10 +311,61 @@ footer p, footer ul li {
 }
 
 
+
     
 }
 @media screen and (max-width:566px) {
-    
+    /* Home */
+    .banner-img {
+    height: 200px;
+}
+.banner-text h3 {
+    font-size: 25px;
+}
+.banner-text a {
+    font-size: 14px;
+}
+.card-sec, .discount-sec, .best-selling-sec, .new-arrival-sec {
+    padding: 20px 0;
+}
+.discount-heading h2 {
+    font-size: 26px;
+}
+.product-box {
+    padding: 15px;
+}
+.product-details h5 {
+    font-size: 16px;
+}
+.review-star i {
+    font-size: 15px !important;
+}
+.product-price h6 {
+    font-size: 19px;
+}
+.product-box{
+    height: 370px !important;
+}
+.arrival-box {
+    height: 330px !important;
+}
+.best-selling-sec .product-box {
+    height: 350px !important;
+}
+/* footer */
+footer {
+    padding: 20px 0;
+}
+.footer-logo {
+    font-size: 22px;
+}
+footer p, footer ul li {
+    font-size: 15px;
+}
+footer h5 {
+    font-size: 18px;
+}
+
 }
 @media screen and (max-width:477px) {
     
