@@ -408,5 +408,80 @@ footer h5 {
 
 }
 @media screen and (max-width:376px) {
-    
+    /* navbar */
+    .navbar-brand {
+    font-size: 15px !important;
+}
+.navbar-toggler-icon {
+    width: 18px !important;
+}
+button.navbar-toggler {
+    top: 6px !important;
+    right: 80px !important;
+}
+.nav-right i {
+    font-size: 16px !important;
+}
+.nav-right {
+    right: 19px;
+    top: 13px;
+}
+.nav-cart  span {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+}
+.navbar-collapse {
+    right: 20px;
+    top: 50px;
+    padding: 10px;
+}
+.navbar-nav li a {
+    font-size: 15px !important;
+}
+/* home page */
+.banner {
+    padding: 15px 0;
+}
+.banner-img {
+    height: 150px;
+}
+.banner-text h3 {
+    font-size: 18px;
+}
+.banner-text p {
+    font-size: 12px;
+}
+.card-sec .row .col-md-3 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+.discount-heading h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.product-img {
+    height: 120px;
+}
+.product-details h5 {
+    font-size: 16px;
+}
+.product-price h6 {
+    font-size: 19px;
+}
+.product-box {
+    height: 320px !important;
+}
+.arrival-box {
+    height: 290px !important;
+}
+.best-selling-sec .product-box {
+    height: 300px !important;
+}
+/* footer */
+footer p, footer ul li {
+    font-size: 13px;
+}
+
+
 } 
