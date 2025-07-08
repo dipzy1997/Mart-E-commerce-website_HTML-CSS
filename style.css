@@ -321,7 +321,7 @@ img{
 /* footer start */
 
 footer{
-    padding: 70px;
+    padding: 70px 0;
     background-color: #0f3460;
     color: var(--footer-text-color);
 }
