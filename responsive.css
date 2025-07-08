@@ -450,6 +450,19 @@ footer h5 {
     height: 330px !important;
 }
 /* shop page */
+.searchbar {
+    border-radius: 0;
+    width: 100px;
+    padding: 0;
+}
+.searchbar input{
+    font-size: 11px;
+}
+
+.searchbar input::placeholder{
+    font-size: 11px !important;
+}
+
 
 
 }
