@@ -541,6 +541,31 @@ button.navbar-toggler {
 footer p, footer ul li {
     font-size: 13px;
 }
-
-
+/* shop page */
+.filter-search .row .col-md-4, .filter-search .row .col-md-8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+.filter-search .row .searchbar{
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+.filter-search .row .searchbar input,
+.filter-search .row .searchbar input::placeholder{
+    font-size: 14px !important;
+} 
+.dropdown-content {
+    width: 200px;
+}
+.bread-sec {
+    height: 120px;
+}
+.bread-sec h1 {
+    font-size: 30px;
+}
+.shop-best-selling-sec .product-box {
+    height: 290px !important;
+}
 } 
