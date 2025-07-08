@@ -261,6 +261,55 @@ button.navbar-toggler {
 .carousel-control-prev {
     left: -15px !important;
 }
+.card-sec {
+    padding: 30px 0;
+}
+.sitecard{
+    margin-bottom: 10px !important;
+}
+.discount-heading h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.card-sec .row .col-md-3{
+    max-width: 50% !important;
+    flex: 0 0 50% !important;
+}
+.discount-sec .row .col-md-6, .new-arrival-sec .row .col-md-6, .best-selling-sec .row .col-md-6{
+     max-width: 50% !important;
+    flex: 0 0 50% !important;
+}
+.product-img {
+    height: 160px;
+}
+.product-details h5 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.product-price h6 {
+    font-size: 21px;
+}
+.offer-percentage {
+    font-size: 12px;
+}
+.arrival-box {
+    height: 360px !important;
+}
+.best-selling-sec .product-box{
+    height: 370px !important;
+}
+/* footer */
+.footer-logo {
+    font-size: 25px;
+}
+footer h5 {
+    font-size: 20px;
+}
+footer p, footer ul li {
+    font-size: 16px;
+}
+
 
     
 }
