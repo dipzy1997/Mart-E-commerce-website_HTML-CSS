@@ -23,6 +23,9 @@ img{
     font-weight: 600;
     font-size: 25px !important;
 }
+.navbar{
+    z-index: 99;
+}
 .navbar-nav li{
     transition: var(--transition);
 }
