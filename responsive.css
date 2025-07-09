@@ -476,6 +476,8 @@ footer h5 {
     height: 320px !important;
 }
 
+
+
 }
 @media screen and (max-width:475.98px) {
     /* navbar */
@@ -529,7 +531,19 @@ footer h5 {
 .searchbar input::placeholder{
     font-size: 11px !important;
 }
-
+/* cart page */
+.cart-box-img {
+    height: 150px !important;
+}
+.cart-box-text h5, .cart-summary-box h4 {
+    font-size: 19px;
+}
+.inc-dec-btn button {
+    padding: 4px 7px;
+}
+.inc-dec-btn button i {
+    font-size: 16px !important;
+}
 
 
 }
@@ -635,4 +649,34 @@ footer p, footer ul li {
 .shop-best-selling-sec .product-box {
     height: 290px !important;
 }
+/* cart page */
+.cart-box-text h5 {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.cart-box-text h5, .cart-summary-box h4 {
+    font-size: 15px;
+}
+.cart-box-img {
+    height: 120px !important;
+}
+.cart-box .cart-cross {
+    top: 10px;
+    right: 10px;
+}
+.cart-product-price{
+flex-wrap: wrap;
+}
+.cart-product-price h6,
+.cart-product-price .inc-dec-btn {
+    max-width: 100%;
+    flex: 0 0 100%; 
+}
+.cart-product-price .inc-dec-btn{
+    margin-top: 10px;
+}
+.cart-summary-box h5 {
+    font-size: 18px;
+}
+
 } 
