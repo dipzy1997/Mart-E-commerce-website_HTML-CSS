@@ -261,10 +261,24 @@ button.navbar-toggler {
     height: 250px;
 }
 .banner-text h3 {
-    font-size: 32px;
+    font-size: 28px;
     width: 100%;
     margin-bottom: 10px;
 }
+.banner-text a {
+    font-size: 14px;
+}
+.banner .carousel-item .row .order-md-1{
+    max-width: 50% !important;
+    flex: 0 0 50% !important;
+    order: 1 !important;
+}
+.banner .carousel-item .row .order-md-2{
+     max-width: 50% !important;
+    flex: 0 0 50% !important;
+    order: 2 !important;
+}
+
 .carousel-control-next {
     right: -10px !important;
 }
@@ -349,9 +363,17 @@ footer p, footer ul li {
 .banner-text h3 {
     font-size: 25px;
 }
-.banner-text a {
-    font-size: 14px;
+.banner .carousel-item .row .order-md-1{
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    order: 2 !important;
 }
+.banner .carousel-item .row .order-md-2{
+     max-width: 100% !important;
+    flex: 0 0 100% !important;
+    order: 1 !important;
+}
+
 .card-sec, .discount-sec, .best-selling-sec, .new-arrival-sec {
     padding: 20px 0;
 }
